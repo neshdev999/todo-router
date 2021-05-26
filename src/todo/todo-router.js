@@ -1,10 +1,7 @@
 const path = require('path');
 const express = require('express');
 const xss = require('xss');
-// const todoService = require('./todo-service');
-const { updateTodo } = require('./todo-service');
 const TodoService = require('./todo-service');
-
 const todoRouter = express.Router();
 const jsonParser = express.json();
 
